@@ -1,0 +1,346 @@
+/*main page styling*/
+@font-face{
+	font-family: "metal";
+	src: url("../fonts/metal-head-font/MetalHead-GLqZ.ttf");
+}
+
+@font-face{
+	font-family: "headkick";
+	src: url("../fonts/head-kick-font/HeadKickPersonalUse-Yz00O.ttf");
+}
+
+@font-face{
+	font-family: "mad";
+	src: url("../fonts/madison/madison.ttf");
+}
+
+body{
+	padding-left: 0px;
+	background-color: black;
+	overflow-x: hidden;
+	scrollbar-color: dark;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track{
+	background: #343434;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #821a01;
+}
+
+#navBar{
+	background-color: #ad371b;
+	width: 110%;
+	height: 80px;
+	margin: -11px;
+	transition: top.07s ease-in-out;
+}
+
+#logo{
+	padding-top: 4px;
+	margin-left: 5px;
+	padding-left: 10px;
+	width: 20%;
+}
+
+#CHTop{
+	margin-top: -50px;
+	margin-left: 85px;
+	color: white;
+	font-family: headkick;
+}
+
+#CHTopT{
+	margin-top: -20px;
+	margin-left: 85px;
+	color: white;
+	font-family: headkick;
+}
+
+#navList{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 1200px;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 250px;
+}
+
+#navList a{
+	color: white;
+	font-size: 18px;
+	font-family: headkick;
+	font-kerning: 1px;
+	text-decoration: none;
+	width: 130%;
+
+}
+
+#navList a.active{
+	color: goldenrod;
+	font-size: 20px;
+}
+
+#navList a:hover{
+	color: black;
+}
+
+#navList a:active{
+	color: darkred;
+}
+
+
+#statement{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 90%;
+	height: 550px;
+	border: solid red 1pt;
+	margin-bottom: 20px;
+}
+
+#showcase{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-items: center;
+	padding-top: 20px;
+}
+
+#text{
+	color: white;
+	width: 100%;
+	margin-left: 34%;
+	font-family: headkick;
+	font-size: 20px;
+	font-kerning: 4px;
+}
+
+#comic{
+	margin-top: 0%;
+	margin-left: 10%;
+	height: 620px;
+	width: 40%;
+	border: solid red 1pt;
+}
+
+#aboutComic{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 35%;
+	margin-left: 55px;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+.synopsis{
+	width: 100%;
+	color: white;
+	font-family: mad;
+	font-size: 30px;
+}
+
+#author{
+	display: inline-flex;
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+#text1{
+	color: white;
+	width: 100%;
+	margin-left: 30%;
+	margin-top: 50px;
+	font-family: headkick;
+	font-size: 20px;
+	font-kerning: 4px;
+}
+
+#aboutAuthor{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 35%;
+	margin-left: 190px;
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+.abt{
+	width: 100%;
+	color: white;
+	font-family: mad;
+	font-size: 30px;
+}
+
+#aboutImage{
+	margin-top: 0%;
+	margin-left: 5%;
+	height: 500px;
+	width: 40%;
+	border: solid red 1pt;
+}
+
+#showcase2{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-items: center;
+}
+
+#text2{
+	color: white;
+	width: 100%;
+	margin-left: 30%;
+	font-family: headkick;
+	font-size: 20px;
+	font-kerning: 4px;
+	margin-top: -30px;
+}
+
+#comic2{
+	margin-top: 0%;
+	margin-left: 10%;
+	height: 320px;
+	width: 40%;
+	border: solid red 1pt;
+}
+
+#text3{
+	color: white;
+	width: 100%;
+	margin-left: 40%;
+	font-family: headkick;
+	font-size: 20px;
+	font-kerning: 4px;
+	margin-top: 20px;
+}
+
+#aboutAuthor1{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+	margin-left: 190px;
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+#buttons{
+	width: 70%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#button1{
+	justify-self: center;
+	width: 20%;
+	font-family: mad;
+	font-size: 25px;
+	background-color: #ad371b;
+}
+
+#button1:hover{
+	background-color: #353935;
+	color: white;
+}
+
+#button2{
+	justify-self: center;
+	width: 15%;
+	font-family: mad;
+	font-size: 25px;
+	background-color: #ad371b;
+}
+
+#button2:hover{
+	background-color: #353935;
+	color: white;
+}
+
+#footer{
+	background-color: #353935;
+	width: 120%;
+	height: 40px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	padding-bottom: 0px;
+}
+
+#logo2{
+	padding-top: 4px;
+	margin-left: 5px;
+	padding-left: 10px;
+	width: 8%;
+}
+
+#CHB{
+	margin-top: -30px;
+	margin-left: 60px;
+	color: white;
+	font-family: headkick;
+	font-size: 10px;
+}
+
+#CHBot{
+	margin-top: -13px;
+	margin-left: 60px;
+	color: white;
+	font-family: headkick;
+	font-size: 10px;
+}
+
+#navListB{
+	font-size: 10px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 1200px;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 250px;
+}
+
+#navListB a{
+	color: white;
+	font-size: 10px;
+	font-family: headkick;
+	font-kerning: 1px;
+	text-decoration: none;
+	width: 130%;
+
+}
+
+#navListB a.active{
+	color: goldenrod;
+	font-size: 12px;
+}
+
+#navListB a:hover{
+	color: black;
+}
+
+#navListB a:active{
+	color: darkred;
+}
+
+.up{
+	font-family: headkick;
+	border-radius: 50%;
+	font-size: 40px;
+	background-color: #ad371b;
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+}
+
+.up:hover{
+	background-color: #353935;
+	color: white;
+}
