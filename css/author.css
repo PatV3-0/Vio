@@ -33,6 +33,13 @@ body{
 	background: darkgoldenrod;
 }
 
+#main{
+	background-image: url("../media/stars.png");
+	background-blend-mode: overlay;
+	background-position: 150px;
+	background-size: contain;
+}
+
 #navBar{
 	background-color: goldenrod;
 	width: 110%;
@@ -103,6 +110,11 @@ body{
 	border: solid goldenrod 1pt;
 }
 
+#state{
+	margin-top: -5px;
+	margin-left: 6.5%;
+}
+
 #showcase{
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -125,7 +137,7 @@ body{
 	margin-left: 10%;
 	height: 620px;
 	width: 40%;
-	border: solid goldenrod 1pt;
+	border: none;
 }
 
 #aboutComic{
@@ -167,7 +179,7 @@ body{
 #text1{
 	color: white;
 	width: 100%;
-	margin-left: 42%;
+	margin-left: 35%;
 	margin-top: 50px;
 	font-family: headkick;
 	font-size: 20px;
