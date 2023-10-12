@@ -30,11 +30,11 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background: #821a01;
+	background: #96550f;
 }
 
 #navBar{
-	background-color: #ad371b;
+	background-color: #bd701e;
 	width: 110%;
 	height: 80px;
 	margin: -11px;
@@ -82,12 +82,12 @@ body{
 }
 
 #navList a.active{
-	color: goldenrod;
+	color: black;
 	font-size: 20px;
 }
 
 #navList a:hover{
-	color: black;
+	color: #ad371b;
 }
 
 #navList a:active{
@@ -100,7 +100,7 @@ body{
 	margin-top: 50px;
 	width: 90%;
 	height: 550px;
-	border: solid red 1pt;
+	border: solid #bd701e 1pt;
 }
 
 #showcase{
@@ -125,7 +125,51 @@ body{
 	margin-left: 10%;
 	height: 620px;
 	width: 40%;
-	border: solid red 1pt;
+	border: none;
+}
+
+#strip1{
+	width: 100%;
+	rotate: 5deg;
+	margin-top: 10px;
+	margin-left: 5px;
+	border: solid white 1pt;
+}
+
+#strip2{
+	width: 100%;
+	rotate: -7deg;
+	margin-top: 35px;
+	margin-left: -5px;
+	border: solid white 1pt;
+}
+
+#strip3{
+	width: 100%;
+	rotate: 10deg;
+	margin-top: 45px;
+	margin-left: -5px;
+	border: solid white 1pt;
+}
+
+#snap1{
+	width: 65%;
+	rotate: 15deg;
+}
+
+#snap2{
+	margin-top: -90px;
+	margin-left: -60px;
+	width: 125%;	
+	rotate: -10deg;
+}
+
+#snap3{
+	width: 40%;
+	position: absolute;
+	top: 1550px;
+	left: 780px;
+	rotate: 2deg;
 }
 
 #aboutComic{
@@ -183,7 +227,7 @@ body{
 	margin-left: 5%;
 	height: 500px;
 	width: 40%;
-	border: solid red 1pt;
+	border: none;
 }
 
 #showcase2{
@@ -208,7 +252,7 @@ body{
 	margin-left: 10%;
 	height: 320px;
 	width: 40%;
-	border: solid red 1pt;
+	border: solid #bd701e 1pt;
 }
 
 #text3{
@@ -243,11 +287,11 @@ body{
 	width: 20%;
 	font-family: mad;
 	font-size: 25px;
-	background-color: #ad371b;
+	background-color: #bd701e;
 }
 
 #button1:hover{
-	background-color: #353935;
+	background-color: #ad371b;
 	color: white;
 }
 
@@ -256,11 +300,11 @@ body{
 	width: 15%;
 	font-family: mad;
 	font-size: 25px;
-	background-color: #ad371b;
+	background-color: #bd701e;
 }
 
 #button2:hover{
-	background-color: #353935;
+	background-color: #ad371b;
 	color: white;
 }
 

@@ -125,7 +125,13 @@ body{
 	margin-left: 10%;
 	height: 620px;
 	width: 40%;
-	border: solid red 1pt;
+	border: none;
+}
+
+#comicIMG{
+	margin-top: -10px;
+	margin-left: 60px;
+	width: 80%;
 }
 
 #aboutComic{
@@ -196,7 +202,7 @@ body{
 	margin-left: 5%;
 	height: 300px;
 	width: 40%;
-	border: solid red 1pt;
+	border: none;
 }
 
 #button2{
@@ -303,4 +309,9 @@ a:active{
 .up:hover{
 	background-color: #353935;
 	color: white;
+}
+
+#aut{
+	width: 55%;
+	margin-left: 100px;
 }

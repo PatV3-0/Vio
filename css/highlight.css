@@ -30,11 +30,11 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background: #821a01;
+	background: darkgoldenrod;
 }
 
 #navBar{
-	background-color: #ad371b;
+	background-color: #353935;
 	width: 110%;
 	height: 80px;
 	margin: -11px;
@@ -100,7 +100,7 @@ body{
 	margin-top: 30px;
 	width: 90%;
 	height: 550px;
-	border: solid red 1pt;
+	border: solid #353935 1pt;
 	margin-bottom: 20px;
 }
 
