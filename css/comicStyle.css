@@ -71,6 +71,12 @@ body{
 	width: 250px;
 }
 
+#gif{
+	margin-top: -40px;
+	margin-left: 170px;
+	width: 65%;
+}
+
 #navList a{
 	color: white;
 	font-size: 18px;
@@ -100,7 +106,7 @@ body{
 	margin-top: 50px;
 	width: 90%;
 	height: 550px;
-	border: solid #bd701e 1pt;
+	border: none;
 }
 
 #showcase{
