@@ -347,6 +347,7 @@ body{
 	position: absolute;
 	top: 2580px;
 	left: 180px;
+	z-index: 0;
 }
 
 #buttons{
@@ -364,11 +365,13 @@ body{
 	font-family: mad;
 	background-image: url("icons.png");
 	background-size: 100%;
+	z-index: 1;
 }
 
 #button1:hover{
 	background-image: url("Comic.png");
 	color: white;
+	z-index: 1;
 }
 
 #b1{
@@ -382,12 +385,14 @@ body{
 	display: inline-flex;
 	justify-items: center;
 	align-items: center;
+	z-index: 1;
 }
 
 #b1:hover{
 	color: #ad371b;
 	font-size: 40px;
 	text-shadow: 1.5px 1.5px 1.5px black;
+	z-index: 1;
 }
 
 
@@ -402,6 +407,7 @@ body{
 	margin-right: 80px;
 	margin-left: 80px;
 	padding-left: 10px;
+	z-index: 1;
 }
 
 #b2{
@@ -414,17 +420,20 @@ body{
 	display: inline-flex;
 	justify-items: center;
 	align-items: center;
+	z-index: 1;
 }
 
 #button2:hover{
 	background-image: url("Trailer.png");
 	color: white;
+	z-index: 1;
 }
 
 #b2:hover{
 	color: #ad371b;
 	font-size: 40px;
 	text-shadow: 1.5px 1.5px 1.5px black;
+	z-index: 1;
 }
 
 #button3{
@@ -435,11 +444,13 @@ body{
 	font-size: 40px;
 	background-image: url("icons.png");
 	background-size: 100%;
+	z-index: 1;
 }
 
 #button3:hover{
 	background-image: url("Interactive.png");
 	color: white;
+	z-index: 1;
 }
 
 #b3{
@@ -452,12 +463,14 @@ body{
 	display: inline-flex;
 	justify-items: center;
 	align-items: center;
+	z-index: 1;
 }
 
 #b3:hover{
 	color: #ad371b;
 	font-size: 40px;
 	text-shadow: 1.5px 1.5px 1.5px black;
+	z-index: 1;
 }
 
 #footer{
