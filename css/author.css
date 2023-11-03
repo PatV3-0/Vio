@@ -104,9 +104,10 @@ body{
 #statement{
 	margin: 0 auto;
 	margin-top: 50px;
+	margin-left: 19%;
 	width: 90%;
 	height: 550px;
-	border: solid goldenrod 1pt;
+	border: none;
 }
 
 #state{
