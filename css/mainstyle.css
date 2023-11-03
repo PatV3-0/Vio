@@ -100,7 +100,7 @@ body{
 	margin-top: 11.2px;
 	margin-left: -5%;
 	width: 110%;
-	height: 600px;
+	height: 800px;
 	border: none;
 	position: relative;
 	display: block;
@@ -112,6 +112,14 @@ body{
 	width: 100%;
 	justify-items: center;
 	padding-top: 20px;
+}
+
+#stateImg{
+	background-image: url(backdrop.png); 
+	height: 750px; 
+	width: 100%; 
+	z-index: 10; 
+	position: absolute;
 }
 
 #text{
