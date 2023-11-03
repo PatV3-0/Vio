@@ -97,10 +97,13 @@ body{
 
 #statement{
 	margin: 0 auto;
-	margin-top: 50px;
-	width: 90%;
-	height: 550px;
-	border: solid red 1pt;
+	margin-top: 11.2px;
+	margin-left: -5%;
+	width: 110%;
+	height: 600px;
+	border: none;
+	position: relative;
+	display: block;
 }
 
 #showcase{
