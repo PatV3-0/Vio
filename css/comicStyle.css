@@ -33,12 +33,12 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background: #96550f;
+	background: #ad371b;
 }
 
 #navBar{
 	margin-left: 10px;
-	background-color: #bd701e;
+	background-color: #ad371b;
 	width: 118%;
 	height: 80px;
 	margin-top: -11px;
@@ -47,21 +47,21 @@ body{
 
 #logo{
 	padding-top: 4px;
-	padding-left: 40px;
+	padding-left: 20px;
 	margin-left: 50px;
 	width: 20%;
 }
 
 #CHTop{
 	margin-top: -50px;
-	margin-left: 175px;
+	margin-left: 145px;
 	color: white;
 	font-family: headkick;
 }
 
 #CHTopT{
 	margin-top: -20px;
-	margin-left: 175px;
+	margin-left: 145px;
 	color: white;
 	font-family: headkick;
 }
@@ -97,7 +97,8 @@ body{
 }
 
 #navList a:hover{
-	color: #ad371b;
+	color: #fcae1e;
+	font-size: 20px;
 }
 
 #navList a:active{
@@ -273,6 +274,10 @@ body{
 	width: 3%;
 }
 
+#vi{
+	width: 100%;
+}
+
 .abt{
 	margin-top: -9px;
 	width: 100%;
@@ -319,7 +324,7 @@ body{
 	margin-left: 10%;
 	height: 320px;
 	width: 40%;
-	border: solid #bd701e 1pt;
+	border: none;
 }
 
 #text3{
@@ -389,7 +394,7 @@ body{
 }
 
 #b1:hover{
-	color: #ad371b;
+	color: white;
 	font-size: 40px;
 	text-shadow: 1.5px 1.5px 1.5px black;
 	z-index: 1;
@@ -430,7 +435,7 @@ body{
 }
 
 #b2:hover{
-	color: #ad371b;
+	color: white;
 	font-size: 40px;
 	text-shadow: 1.5px 1.5px 1.5px black;
 	z-index: 1;
@@ -467,7 +472,7 @@ body{
 }
 
 #b3:hover{
-	color: #ad371b;
+	color: white;
 	font-size: 40px;
 	text-shadow: 1.5px 1.5px 1.5px black;
 	z-index: 1;
@@ -527,12 +532,13 @@ body{
 }
 
 #navListB a.active{
-	color: goldenrod;
+	color: #ad371b;
 	font-size: 12px;
 }
 
 #navListB a:hover{
-	color: black;
+	color: #ed8322;
+	font-size: 14px;
 }
 
 #navListB a:active{

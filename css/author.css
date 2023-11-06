@@ -300,7 +300,8 @@ ul{
 }
 
 #navListB a:hover{
-	color: black;
+	color: #ad371b;
+	font-size: 14px;
 }
 
 #navListB a:active{

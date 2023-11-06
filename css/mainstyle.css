@@ -30,11 +30,11 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background: #821a01;
+	background: #ed8322;
 }
 
 #navBar{
-	background-color: #ad371b;
+	background-color: #ed8322;
 	width: 110%;
 	height: 80px;
 	margin: -11px;
@@ -82,22 +82,24 @@ body{
 }
 
 #navList a.active{
-	color: goldenrod;
+	color: #ed8322;
 	font-size: 20px;
+	text-decoration: bold;
 }
 
 #navList a:hover{
 	color: black;
+	font-size: 20px;
 }
 
 #navList a:active{
-	color: darkred;
+	color: #ad371b;
 }
 
 
 #statement{
 	margin: 0 auto;
-	margin-top: 11.2px;
+	margin-top: 11px;
 	margin-left: -5%;
 	width: 110%;
 	height: 800px;
@@ -114,8 +116,8 @@ body{
 	padding-top: 20px;
 }
 
-#stateImg{
-	background-image: url(backdrop.png); 
+#stateImg{ 
+	background-image: url(backdrop.png);
 	height: 750px; 
 	width: 100%; 
 	z-index: 10; 
@@ -167,11 +169,11 @@ body{
 	width: 30%;
 	font-family: mad;
 	font-size: 25px;
-	background-color: #ad371b;
+	background-color: #ed8322;
 }
 
 #button1:hover{
-	background-color: #353935;
+	background-color: #ad371b;
 	color: white;
 }
 
@@ -221,7 +223,7 @@ body{
 	width: 30%;
 	font-family: mad;
 	font-size: 25px;
-	background-color: #ad371b;
+	background-color: #ed8322;
 }
 
 #button2:hover{
@@ -240,7 +242,7 @@ body{
 
 #logo2{
 	padding-top: 4px;
-	margin-left: 5px;
+	margin-left: 25px;
 	padding-left: 10px;
 	width: 8%;
 }
@@ -282,12 +284,14 @@ body{
 }
 
 #navListB a.active{
-	color: goldenrod;
+	color: #ad371b;
 	font-size: 12px;
+	font-weight: 2pt;
 }
 
 #navListB a:hover{
-	color: black;
+	color: goldenrod;
+	font-size: 14px;
 }
 
 #navListB a:active{
