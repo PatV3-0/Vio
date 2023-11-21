@@ -35,12 +35,12 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background: #353935;
+	background: #ad371b;
 }
 
 /*navigation bars*/
 header{
-	background-color: #353935;
+	background-color: #ad371b;
 	width: 100%;
 	height: 80px;
 	/*position: fixed;*/
@@ -101,7 +101,7 @@ header{
 }
 
 #navList a.active{
-	color: goldenrod;
+	color: black;
 	font-size: 19px;
 	font-kerning: 1px;
 	text-decoration: none;
@@ -136,7 +136,7 @@ header{
 .drop{
 	display: none;
 	font-size: 6px;
-	background-color: #353935;
+	background-color: #ad371b;
 	padding: 5px;
 }
 
@@ -152,22 +152,53 @@ header{
 	font-size: 12px;
 }
 
-
-#statement{
-	margin: 0 auto;
-	margin-top: 0px;
-	width: 95%;
-	height: 625px;
-	border: solid #353935 1pt;
-	margin-bottom: 20px;
+/*main size*/
+#main{
+	
 }
 
 #showcase{
 	display: inline-flex;
 	flex-wrap: wrap;
-	width: 100%;
+	width: 99wv;
 	justify-items: center;
 	padding-top: 20px;
+}
+
+/*gifs*/
+#making{
+	position: absolute;
+	top: 205px;
+	left: 1050px;
+	width: 25%;
+}
+
+#m{
+	position: absolute;
+	top: 505px;
+	left: 7%;
+}
+
+#Im{
+	position: absolute;
+	top: 135px;
+	left: 80px;
+	width: 15%;
+	transform: rotate(-15deg);
+}
+
+#fs{
+	position: absolute;
+	top: 805px;
+	left: 480px;
+	width: 15%;
+}
+
+#str{
+	position: absolute;
+	top: 805px;
+	left: 880px;
+	width: 3%;
 }
 
 #text{
@@ -184,7 +215,33 @@ header{
 	margin-left: 10%;
 	height: 620px;
 	width: 40%;
-	border: solid red 1pt;
+}
+
+#strip1{
+	width: 100%;
+	rotate: 5deg;
+	margin-top: 10px;
+	margin-left: 5px;
+	border: solid white 1pt;
+	z-index: 5;
+}
+
+#strip2{
+	width: 100%;
+	rotate: -7deg;
+	margin-top: 35px;
+	margin-left: -5px;
+	border: solid white 1pt;
+	z-index: 6;
+}
+
+#strip3{
+	width: 100%;
+	rotate: 10deg;
+	margin-top: 45px;
+	margin-left: -5px;
+	border: solid white 1pt;
+	z-index: 5;
 }
 
 #aboutComic{
@@ -224,25 +281,55 @@ header{
 	display: inline-flex;
 	flex-direction: column;
 	align-items: center;
-	width: 35%;
+	width: 34.5%;
 	margin-left: 190px;
 	margin-top: 5px;
 	font-size: 22px;
 }
 
 .abt{
+	margin-top: -9px;
 	width: 100%;
 	color: white;
 	font-family: mad;
 	font-size: 30px;
 }
 
-#aboutImage{
-	margin-top: 0%;
-	margin-left: 5%;
-	height: 500px;
+#snap1{
+	margin-top: -10px;
+	width: 65%;
+	rotate: 15deg;
+}
+
+#snap2{
+	margin-top: -115px;
+	margin-left: -60px;
+	width: 125%;	
+	rotate: -10deg;
+}
+
+#snap3{
 	width: 40%;
-	border: solid red 1pt;
+	position: absolute;
+	top: 970px;
+	left: 780px;
+	rotate: 2deg;
+}
+
+#aboutImage{
+	margin-top: -20px;
+	margin-left: 5%;
+	height: 10px;
+	width: 40%;
+	border: none;
+}
+
+#v{
+	position: absolute;
+	top: 1332px;
+	left: 145px;
+	z-index: 1;
+	width: 82%;
 }
 
 #showcase2{
@@ -259,15 +346,34 @@ header{
 	font-family: headkick;
 	font-size: 20px;
 	font-kerning: 4px;
-	margin-top: -30px;
+	margin-top: 20px;
 }
 
 #comic2{
 	margin-top: 0%;
 	margin-left: 10%;
 	height: 320px;
-	width: 40%;
-	border: solid red 1pt;
+	width: 35%;
+	border: none;
+}
+
+#aboutComic1{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	margin-left: 55px;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+#vi{
+	width: 100%;
+}
+
+#GFW{
+	margin-bottom: 50px;
+	margin-top: 35px;
 }
 
 #text3{
@@ -285,12 +391,21 @@ header{
 	flex-direction: column;
 	align-items: center;
 	width: 75%;
+	height: 70%;
 	margin-left: 190px;
 	margin-top: 5px;
 	font-size: 22px;
 }
 
+#arrows{
+	position: absolute;
+	top: 2030px;
+	left: 180px;
+	z-index: 0;
+}
+
 #buttons{
+	margin-top: 20px;
 	width: 70%;
 	display: inline-flex;
 	flex-direction: row;
@@ -299,26 +414,140 @@ header{
 
 #button1{
 	justify-self: center;
-	width: 20%;
+	width: 30%;
+	height: 208px;
 	font-family: mad;
-	font-size: 25px;
-	background-color: #ad371b;
+	background-image: url("icons.png");
+	background-size: 100%;
+	z-index: 1;
 }
 
 #button1:hover{
-	background-color: #353935;
+	background-image: url("Comic.png");
 	color: white;
+	z-index: 1;
 }
+
+#b1{
+	font-size: 40px;
+	height: 100%;
+	width: 100%;
+	border: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: -5px;
+	display: inline-flex;
+	justify-items: center;
+	align-items: center;
+	z-index: 1;
+}
+
+#b1:hover{
+	color: white;
+	font-size: 40px;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	z-index: 1;
+}
+
 
 #button2{
 	justify-self: center;
-	width: 15%;
+	width: 30%;
+	height: 208px;
 	font-family: mad;
-	font-size: 25px;
-	background-color: #ad371b;
+	font-size: 40px;
+	background-image: url("icons.png");
+	background-size: 100%;
+	margin-right: 80px;
+	margin-left: 80px;
+	padding-left: 10px;
+	z-index: 1;
+}
+
+#b2{
+	font-size: 40px;
+	height: 100%;
+	width: 84%;
+	border: none;
+	padding-left: 45px;
+	margin-left: -10px;
+	display: inline-flex;
+	justify-items: center;
+	align-items: center;
+	z-index: 1;
 }
 
 #button2:hover{
+	background-image: url("Trailer.png");
+	color: white;
+	z-index: 1;
+}
+
+#b2:hover{
+	color: white;
+	font-size: 40px;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	z-index: 1;
+}
+
+#button3{
+	justify-self: center;
+	width: 30%;
+	height: 216px;
+	font-family: mad;
+	font-size: 40px;
+	background-image: url("icons.png");
+	background-size: 100%;
+	z-index: 1;
+}
+
+#button3:hover{
+	background-image: url("Interactive.png");
+	color: white;
+	z-index: 1;
+}
+
+#b3{
+	font-size: 40px;
+	height: 100%;
+	width: 100%;
+	border: none;
+	padding-left: 10px;
+	margin-left: -5px;
+	display: inline-flex;
+	justify-items: center;
+	align-items: center;
+	z-index: 1;
+}
+
+#b3:hover{
+	color: white;
+	font-size: 40px;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	z-index: 1;
+}
+
+a{
+	color: white;
+	font-size: 10px;
+	font-family: headkick;
+	font-kerning: 1px;
+	text-decoration: none;
+	width: 130%;
+
+}
+
+.up{
+	font-family: headkick;
+	border-radius: 50%;
+	font-size: 40px;
+	background-color: #ad371b;
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+}
+
+.up:hover{
 	background-color: #353935;
 	color: white;
 }
@@ -329,8 +558,8 @@ header{
 	width: 100%;
 	height: 50px;
 	margin-left: -10px;
-	margin-top: -15px;
-	margin-bottom: -15px;
+	margin-top: 40px;
+	margin-bottom: -20px;
 	padding-bottom: -5px;
 }
 
@@ -347,7 +576,7 @@ header{
 
 #CHB{
 	margin-top: -30px;
-	margin-left: 40px;
+	margin-left: 50px;
 	color: white;
 	font-family: headkick;
 	font-size: 10px;
@@ -355,7 +584,7 @@ header{
 
 #CHBott{
 	margin-top: -13px;
-	margin-left: 40px;
+	margin-left: 50px;
 	color: white;
 	font-family: headkick;
 	font-size: 10px;
@@ -364,7 +593,7 @@ header{
 #navListB{
 	font-size: 10px;
 	position: absolute;
-	margin-top: -25px;
+	margin-top: -30px;
 	margin-left: 80%;
 	display: inline-flex;
 	justify-content: space-between;

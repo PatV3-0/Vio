@@ -1,4 +1,4 @@
-/*main page styling*/
+/*Fonts*/
 @font-face{
 	font-family: "metal";
 	src: url("../fonts/metal-head-font/MetalHead-GLqZ.ttf");
@@ -14,13 +14,18 @@
 	src: url("../fonts/madison/madison.ttf");
 }
 
+/*Body*/
 body{
-	padding-left: 0px;
 	background-color: black;
 	overflow-x: hidden;
 	scrollbar-color: dark;
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
 }
 
+/*Scrollbar*/
 ::-webkit-scrollbar{
 	width: 10px;
 }
@@ -33,86 +38,140 @@ body{
 	background: darkgoldenrod;
 }
 
+/*navigation bars*/
+header{
+	background-color: goldenrod;
+	width: 100%;
+	height: 80px;
+	/*position: fixed;*/
+	transition: top 0.2s ease-in-out;
+	top: 0px;
+	display: inline-block;
+	align-items: center;
+	justify-items: center;
+}
+
+.nav-up{
+	top:-80px;
+}
+
+#nav{
+	padding-left: 10px;
+	height: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-family: headkick;
+	color: white;
+}
+
+#logo{
+	height: 70px;
+}
+
+#smaller{
+	display: inline-flex;
+	flex-direction: column;
+	height: 60px;
+	padding-left: 5px;
+}
+
+#CHBot{
+	margin-top: -18px;
+}
+
+/*Nav items*/
+#navList{
+	display: inline-flex;
+	font-family: headkick;
+	color: white;
+	width: 30%;
+	height: 80px;
+	float: right;
+	padding-right: 5%;
+	align-items: center;
+}
+
+#navList a{
+	color: white;
+	font-size: 18px;
+	font-kerning: 1px;
+	width: 100%;
+	text-decoration: none;
+}
+
+#navList a.active{
+	color: black;
+	font-size: 19px;
+	font-kerning: 1px;
+	text-decoration: none;
+}
+
+#navList a:hover{
+	color: black;
+	font-size: 22px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#navList a:active{
+	color: #ad371b;
+}
+
+.dropDown{
+	border: none;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	position: absolute;
+	top: 19px;
+	width: 10%;
+	float: right;
+	position: absolute;
+	right: 2%;
+
+	padding-top: 60px;
+}
+
+.drop{
+	display: none;
+	font-size: 6px;
+	background-color: goldenrod;
+	padding: 5px;
+}
+
+.dropDown:hover .drop{
+	display: block;
+}
+
+.smaller{
+	padding-bottom: 3px;
+}
+
+.smaller:hover{
+	font-size: 12px;
+}
+
+/*main size*/
 #main{
 	background-image: url("../media/Stars1.png");
 	background-position: 150px;
 	background-size: contain;
 }
 
-#navBar{
-	background-color: goldenrod;
-	width: 110%;
-	height: 80px;
-	margin: -11px;
-	transition: top.07s ease-in-out;
-}
-
-#logo{
-	padding-top: 4px;
-	margin-left: 5px;
-	padding-left: 10px;
-	width: 20%;
-}
-
-#CHTop{
-	margin-top: -50px;
-	margin-left: 85px;
-	color: white;
-	font-family: headkick;
-}
-
-#CHTopT{
-	margin-top: -20px;
-	margin-left: 85px;
-	color: white;
-	font-family: headkick;
-}
-
-#navList{
-	position: absolute;
-	margin-top: -45px;
-	margin-left: 1200px;
-	display: inline-flex;
-	justify-content: space-between;
-	width: 250px;
-}
-
-#navList a{
-	color: white;
-	font-size: 18px;
-	font-family: headkick;
-	font-kerning: 1px;
-	text-decoration: none;
-	width: 130%;
-
-}
-
-#navList a.active{
-	color: black;
-	font-size: 20px;
-}
-
-#navList a:hover{
-	color: black;
-}
-
-#navList a:active{
-	color: darkred;
-}
-
-
 #statement{
 	margin: 0 auto;
-	margin-top: 50px;
-	margin-left: 19%;
-	width: 90%;
-	height: 550px;
-	border: none;
+	margin-top: 10px;
+	margin-left: 0%;
+	height: 90vh;
+	width: 99vw;
 }
 
 #state{
 	margin-top: -5px;
 	margin-left: 6.5%;
+	width: 80%;
+	max-height: 620px;
 }
 
 #showcase{
@@ -176,6 +235,8 @@ body{
 	display: inline-flex;
 	width: 100%;
 	padding-bottom: 60px;
+	background-image: url("../media/auth3.png");
+	background-size: contain;
 }
 
 #text1{
@@ -227,6 +288,7 @@ ul{
 #abt{
 	margin-top: -15px;
 	width: 65%;
+	max-width: 280px;
 }
 
 #button2{
@@ -242,33 +304,39 @@ ul{
 	color: white;
 }
 
+/*footer*/
 #footer{
 	background-color: #353935;
-	width: 120%;
-	height: 40px;
+	width: 100%;
+	height: 50px;
 	margin-left: -10px;
-	margin-bottom: -10px;
-	padding-bottom: 0px;
+	margin-top: -40px;
+	margin-bottom: -15px;
+	padding-bottom: -5px;
 }
 
 #logo2{
 	padding-top: 4px;
-	margin-left: 5px;
+	margin-left: 25px;
 	padding-left: 10px;
 	width: 8%;
 }
 
+#logoB{
+	width: 52%;
+}
+
 #CHB{
 	margin-top: -30px;
-	margin-left: 60px;
+	margin-left: 40px;
 	color: white;
 	font-family: headkick;
 	font-size: 10px;
 }
 
-#CHBot{
+#CHBott{
 	margin-top: -13px;
-	margin-left: 60px;
+	margin-left: 40px;
 	color: white;
 	font-family: headkick;
 	font-size: 10px;
@@ -278,7 +346,7 @@ ul{
 	font-size: 10px;
 	position: absolute;
 	margin-top: -25px;
-	margin-left: 1200px;
+	margin-left: 80%;
 	display: inline-flex;
 	justify-content: space-between;
 	width: 250px;
@@ -295,43 +363,16 @@ ul{
 }
 
 #navListB a.active{
-	color: goldenrod;
+	color: #ad371b;
 	font-size: 12px;
+	font-weight: 2pt;
 }
 
 #navListB a:hover{
-	color: #ad371b;
+	color: goldenrod;
 	font-size: 14px;
 }
 
 #navListB a:active{
 	color: darkred;
-}
-
-a{
-	color: white;
-	font-size: 18px;
-	font-family: headkick;
-	font-kerning: 1px;
-	text-decoration: none;
-	width: 130%;
-}
-
-a:active{
-	color: darkred;
-}
-
-.up{
-	font-family: headkick;
-	border-radius: 50%;
-	font-size: 40px;
-	background-color: #ad371b;
-	position: fixed;
-	right: 10px;
-	bottom: 20px;
-}
-
-.up:hover{
-	background-color: #353935;
-	color: white;
 }

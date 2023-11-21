@@ -3,27 +3,35 @@
 <head>
 	<meta charset="utf-8" name="VIOD4" content="portfolio for u17104361">
 	<title>Comic</title>
-	<link rel="stylesheet" href="css/comicStyle.css">
+	<link rel="stylesheet" href="css/comic.css">
 </head>
 <body>
-	<div id="navBar">
-		<div id="logo">
-			<img src="media/logoW.png" id="logo"/>
+	<header class="nav-down">
+	<div class="container" id="nav">
+		<img src="media/logoW.png" id="logo"/>
+		<div id="smaller">
 			<p id="CHTop">Cliff</p>
-			<p id="CHTopT">hanger</p>
+			<p id="CHBot">Hanger</p>
 		</div>
-		<div id="nav">
-			<div id="navList">
-				<a href="index.html" name="top">Home</a>
-				<a class="active" href="comic.html">Comic</a>
-				<a href="author.html">Author</a>
+	</div>
+	<div id="navList">
+		<a href="index.html">Home</a>
+		<a class="active" href="#comic">Comic</a>
+		<a href="author.html">Author</a>
+		<a href="#" class="dropBtn">More &#11206;</a>
+		<div class="dropDown">
+			<div class="drop">
+				<p><a class="smaller" href="ogComic.html" style="font-size: 12px;">Original Comic</a></p>
+				<p><a class="smaller" href="trailer.html" style="font-size: 12px;">Comic Trailer</a></p>
+				<p><a class="smaller" href="animated.html" style="font-size: 12px;">Animated Comic</a></p>
 			</div>
 		</div>
 	</div>
+	</header>
 	<div id="main">
-		<div id="statement">
+		<!--<div id="statement">
 			<img src="media/Cir.gif" id="gif">
-		</div>
+		</div>-->
 		<div id="showcase">
 			<div id="text">
 				<h1>The creation of Red Point</h1>
@@ -33,24 +41,26 @@
 				<img src="media/Strip1.png" id="strip2"/>
 				<img src="media/Strip2.png" id="strip3"/>
 			</div>
-			<img id="making" src="media/sideMaking.gif">
-			<img id="m" src="media/fs.gif">
-			<img id="Im" src="media/Im.gif">
-			<img id="fs" src="media/style.gif">
-			<img id="str" src="media/star.gif">
+			<div id="gifs">
+				<img id="making" src="media/sideMaking.gif">
+				<img id="m" src="media/fs.gif">
+				<!--<img id="Im" src="media/Im.gif">-->
+				<!--<img id="fs" src="media/style.gif">-->
+				<!--<img id="str" src="media/star.gif">-->
+			</div>
 			<div id="aboutComic">
 				<p class="synopsis">Red Point started as a series of rough sketches and experimentation with styles and colours. Initially, Nate, the main character, was going to be a climbing instructor stranded in the woods with a school group. It was going to be a gritty tale of survival in wild and unexplored teritory.</p>
 				<p class="synopsis">This all changed in August 2022 when we were asked: "If your character had a superpower, what would it be?". Very quickly the idea of Nate with glowing eyes and ghostly ribs for armor took shape. By the time that Jamie's concept and their relationship came up, Nate had become a benevolent ghost intent on helping someone to get their life back together.</p>
 			</div>
 		</div>
-		<div id="text1">
+		<div id="text1" style="margin-top: 100px">
 				<h1>Nothing exists in a vaccuum</h1>
 			</div>
 		<div id="author">
-			<img id="v" src="media/vacc.gif">
+			<img id="v" src="media/vacc.gif" style="position: absolute; top: 755px; width: 82%; rotate: -3deg;">
 			<div id="aboutAuthor">
 				<p class="abt">As is with every comic, or story for that matter, things tend to have a mind of their own. Nate was never going to exist in a vaccuum, so when Jamie came along, bringing some life to the abandoned cottage, things got interesting.</p>
-				<p class="abt">With a human in a house full of ghosts, there is bound to be some mischief and a few culture shocks. Since the author likes to binge horror, naturally, a murderous ghost lady would come into being. Thus, Viola, the antagonist was born. Vengeful and possessive, she very quickly threatens Jamie's life when her haunt is disturbed.</p>
+				<p class="abt" style="margin-top: -5px;">With a human in a house full of ghosts, there is bound to be some mischief and a few culture shocks. Since the author likes to binge horror, naturally, a murderous ghost lady would come into being. Thus, Viola, the antagonist was born. Vengeful and possessive, she very quickly threatens Jamie's life when her haunt is disturbed.</p>
 			</div>
 			<div id="aboutImage">
 				<img src="media/Picture1.png" id="snap1"/>
@@ -65,7 +75,7 @@
 			<div id="comic2">
 				<img id="vi" src="media/viola.gif"/>
 			</div>
-			<div id="aboutComic">
+			<div id="aboutComic1">
 				<p class="synopsis">Without conflict, the world would be quite boring. So naturally Nate and Jamie must defend themselves against Viola. But of course, no artist is exempt. During the creation of the last panels, the author's stylus gave the ghost and they had a challenge of their own to overcome.</p>
 			</div>
 		</div>
@@ -89,9 +99,9 @@
 	<div id="footer">
 		<div id="logo2">
 			<div id="logoB">
-			<img src="media/logoW.png" id="logo"/>
+			<img src="media/logoW.png" id="logo" style="width: 45px; height: 45px;" />
 			<p id="CHB">Cliff</p>
-			<p id="CHBot">hanger</p>
+			<p id="CHBott">hanger</p>
 		</div>
 		<div id="navB">
 			<div id="navListB">
