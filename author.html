@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "eng">
 <head>
-	<meta charset="utf-8" name="VIO Portfolio" content="u17104361 comic portfolio">
+	<meta charset="UTF-8" name="VIO Portfolio" content="u17104361 comic portfolio">
 	<title>Portfolio Home</title>
 	<link rel="stylesheet" href="css/auth.css">
 </head>
@@ -66,6 +66,18 @@
 				<!--<img src="media/auth3.png" style="height: 50%; max-height: 300px; position: absolute; top: 190%; left: 80px;">-->
 			</div>
 		</div>
+		<div id="text3">
+				<h1>Contact them</h1>
+			</div>
+		<div id="contact">
+			<div id="outerBox">
+				<p id="emText">You can reach them via email at</p>
+				<div id="inner">
+					<p class="email">rainbirdwebb05&#64;gmail.com</p>
+					<button id="btn" onclick="funct()">Copy the address</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id="footer">
 		<div id="logo2">
@@ -83,6 +95,19 @@
 		</div>
 		</div>
 	</div>
+
+	<script>
+		function funct() {
+  		var copyText = document.getElementById("email");
+
+  		copyText.select();
+  		copyText.setSelectionRange(0, 99999);
+
+  		navigator.clipboard.writeText(copyText.value);
+
+  		alert("Copied the text: " + copyText.value);
+		}
+	</script>
 
 <!--Adding scroll-up function for navbar-->
 <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

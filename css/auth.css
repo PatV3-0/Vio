@@ -304,6 +304,82 @@ ul{
 	color: white;
 }
 
+#text3{
+	color: white;
+	width: 100%;
+	margin-left: 42%;
+	font-family: headkick;
+	font-size: 20px;
+	font-kerning: 4px;
+}
+
+#contact{
+	width: 99vw;
+	height: 200px;
+	margin-bottom: 60px;
+	display: inline-flex;
+	justify-content: center;
+}
+
+#outerBox{
+	width: 30%;
+	height: 200px;
+	border-radius: 10px;
+	border: solid goldenrod;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: goldenrod;
+}
+
+#emText{
+	color: black;
+	font-family: mad;
+	font-size: 30px;
+	text-decoration: bold;
+	margin-bottom: 0px;
+	margin-top: 2px;
+}
+
+#inner{
+	margin-top: 10px;
+	width: 95%;
+	height: 110px;
+	border: solid white;
+	border-radius: 10px;
+	background-color: white;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.email{
+	color: black;
+	font-family: mad;
+	font-size: 30px;
+	text-decoration: bold;
+}
+
+#btn{
+	margin-top: -15px;
+	background-color: goldenrod;
+	border-radius: 10px;
+	color: black;
+	font-family: mad;
+	font-size: 25px;
+}
+
+#btn:hover{
+	color: white;
+}
+
+#btn:active{
+	color: white;
+	background-color: #353935;
+}
+
 /*footer*/
 #footer{
 	background-color: #353935;
